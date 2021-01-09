@@ -1,0 +1,9 @@
+$nav-color: #F90; // 变量$nav-color可以在这个文件中使用
+.nav {
+  $width: 100px; // 变量$width只能在.nav 规则块中使用
+  width: $width;
+  color: $nav-color;
+}
+.header {
+  color: $nav-color;
+}

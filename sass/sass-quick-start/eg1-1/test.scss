@@ -1,0 +1,11 @@
+$nav-color: #F90; // #F90 可以被用作color的属性值
+$border-style: solid; // solid 可以被用作border-style的属性值
+$nav-border: 1px $border-style $nav-color; // 1px solid #F90 可以被用作border的属性值,当然也可以用声明的变量来代替属性值
+$plain-font: "Myriad Pro"、Myriad、"Helvetica Neue"、Helvetica、"Liberation Sans"、Arial; // 字体也是font-family的属性值
+.nav {
+    $width: 100px;
+    width: $width;
+    color: $nav-color;
+    border: $nav-border;
+    font-family: $plain-font;
+}

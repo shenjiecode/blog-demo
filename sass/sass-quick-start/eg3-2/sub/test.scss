@@ -1,0 +1,9 @@
+@import '../mixins/common';
+@import '../main';  // 可以加上后缀名，也可以省略
+
+.title{
+    background-color: $bg-color; // 可以直接使用引入的文件中定义的变量
+    color: $main-color;
+    display: flex;
+    justify-content: space-between;
+}

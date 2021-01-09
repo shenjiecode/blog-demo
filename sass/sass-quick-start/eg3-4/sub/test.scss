@@ -1,0 +1,7 @@
+$bg-color: #ffffff;
+@import '../mixins/common';
+
+.title{
+    background-color: $bg-color; // 期望值为当前文件中声明的 #ffffff
+    color: $main-color;
+}

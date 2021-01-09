@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,MAAM;EACF,gBAAgB,EAJT,OAAO;EAKd,KAAK,ECLI,GAAG",
+"sources": ["test.scss","../mixins/_common.scss"],
+"names": [],
+"file": "test.css"
+}
