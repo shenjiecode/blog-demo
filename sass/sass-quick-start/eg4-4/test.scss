@@ -1,0 +1,12 @@
+@import 'minix';
+
+a {
+    @include link-colors(blue);
+}
+
+div {
+    @include link-colors(
+        $normal: green,
+        $visited: blue
+    );
+}

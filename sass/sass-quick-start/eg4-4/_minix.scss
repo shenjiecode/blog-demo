@@ -1,0 +1,9 @@
+@mixin link-colors(
+    $normal,
+    $hover: red, // 指定默认值，$hover不传值得话取默认值red
+    $visited: $normal // 默认值也可以指定为一个变量，这里如果$visited不传值则默认值与$normal一致
+){
+    color: $normal;
+    &:hover { color: $hover; }
+    &:visited { color: $visited; }
+}

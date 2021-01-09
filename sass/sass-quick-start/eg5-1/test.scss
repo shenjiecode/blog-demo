@@ -1,0 +1,6 @@
+@import 'extend';
+
+.seriousError {
+    @extend .error;
+    border-width: 3px;
+}

@@ -1,0 +1,21 @@
+a {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+
+div {
+  color: green;
+}
+div:hover {
+  color: red;
+}
+div:visited {
+  color: blue;
+}
+
+/*# sourceMappingURL=test.css.map */

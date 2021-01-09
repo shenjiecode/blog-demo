@@ -1,0 +1,6 @@
+@import 'minix';
+
+ul.plain {
+    color: #444;
+    @include no-bullets;
+}

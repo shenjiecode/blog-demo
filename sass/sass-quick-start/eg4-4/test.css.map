@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,CAAE;ECGE,KAAK,EDFgB,IAAI;;ACGzB,OAAQ;EAAE,KAAK,EAJP,GAAG;;AAKX,SAAU;EAAE,KAAK,EDJI,IAAI;;;AAG7B,GAAI;ECDA,KAAK,EDGQ,KAAK;;ACFlB,SAAQ;EAAE,KAAK,EAJP,GAAG;;AAKX,WAAU;EAAE,KAAK,EDEH,IAAI",
+"sources": ["test.scss","_minix.scss"],
+"names": [],
+"file": "test.css"
+}

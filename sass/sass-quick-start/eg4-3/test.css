@@ -1,0 +1,16 @@
+@charset "UTF-8";
+notice {
+  background-color: green;
+  border: 2px solid #00aa00;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+    /* 
+      赋值的时候也可以使用$name: value方式，这种方式不必在乎参数顺序
+  		@include rounded-corners({
+  			$border-radius: 4px
+			});
+    */
+}
+
+/*# sourceMappingURL=test.css.map */

@@ -1,0 +1,13 @@
+@import 'minix';
+
+notice {
+    background-color: green;
+    border: 2px solid #00aa00;
+    @include rounded-corners(4px); // 给$border-radius赋值为4px
+    /* 
+      赋值的时候也可以使用$name: value方式，这种方式不必在乎参数顺序
+  		@include rounded-corners({
+  			$border-radius: 4px
+			});
+    */
+}

@@ -1,0 +1,7 @@
+@import 'minix';
+
+notice {
+    background-color: green;
+    border: 2px solid #00aa00;
+    @include rounded-corners;
+}
